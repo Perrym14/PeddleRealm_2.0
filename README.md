@@ -1,4 +1,4 @@
-# PeddleRealm_2.0
+# PeddleRealm_2.0 (WIP)
 Peddlerealm upgraded from .NET MVC 4.5 to .NET Core MVC.
 
 (Original project: https://github.com/Perrym14/PeddleRealmWebApp
