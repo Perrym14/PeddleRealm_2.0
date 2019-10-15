@@ -28,7 +28,7 @@ namespace PeddleRealmCore.Views.Items
                 return NotFound();
             }
 
-            Item = await _context.Item
+            Item = await _context.Items
                 .Include(i => i.ItemType).FirstOrDefaultAsync(m => m.Id == id);
 
             if (Item == null)

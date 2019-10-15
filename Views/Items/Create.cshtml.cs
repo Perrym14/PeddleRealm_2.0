@@ -35,7 +35,7 @@ namespace PeddleRealmCore.Views.Items
                 return Page();
             }
 
-            _context.Item.Add(Item);
+            _context.Items.Add(Item);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

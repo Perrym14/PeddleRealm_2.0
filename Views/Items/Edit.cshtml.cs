@@ -30,7 +30,7 @@ namespace PeddleRealmCore.Views.Items
                 return NotFound();
             }
 
-            Item = await _context.Item
+            Item = await _context.Items
                 .Include(i => i.ItemType).FirstOrDefaultAsync(m => m.Id == id);
 
             if (Item == null)
@@ -71,7 +71,7 @@ namespace PeddleRealmCore.Views.Items
 
         private bool ItemExists(int id)
         {
-            return _context.Item.Any(e => e.Id == id);
+            return _context.Items.Any(e => e.Id == id);
         }
     }
 }

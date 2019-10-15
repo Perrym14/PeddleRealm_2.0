@@ -23,7 +23,7 @@ namespace PeddleRealmCore.Views.Items
 
         public async Task OnGetAsync()
         {
-            Item = await _context.Item
+            Item = await _context.Items
                 .Include(i => i.ItemType).ToListAsync();
         }
     }

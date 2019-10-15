@@ -29,7 +29,7 @@ namespace PeddleRealmCore.Views.Items
                 return NotFound();
             }
 
-            Item = await _context.Item
+            Item = await _context.Items
                 .Include(i => i.ItemType).FirstOrDefaultAsync(m => m.Id == id);
 
             if (Item == null)
@@ -46,11 +46,11 @@ namespace PeddleRealmCore.Views.Items
                 return NotFound();
             }
 
-            Item = await _context.Item.FindAsync(id);
+            Item = await _context.Items.FindAsync(id);
 
             if (Item != null)
             {
-                _context.Item.Remove(Item);
+                _context.Items.Remove(Item);
                 await _context.SaveChangesAsync();
             }
 
