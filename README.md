@@ -1,9 +1,9 @@
-# PeddleRealm_2.0
+# PeddleRealm_2.0 (WIP)
 Peddlerealm upgraded from .NET MVC 4.5 to .NET Core MVC.
 
 (Original project: https://github.com/Perrym14/PeddleRealmWebApp
 
-# PeddleRealmWebApp
+# PeddleRealm
 A personal small-scale store web application
 
 ~~https://peddlerealmwebapp20181211061151.azurewebsites.net/~~ (**Removed from Azure for being too expensive. Deploy to domain later)**
