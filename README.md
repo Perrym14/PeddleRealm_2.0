@@ -17,12 +17,12 @@ PeddleRealm is a site where the site Admin can add items up for sell (also edit/
 - [ ] Rewrite sycronous Controllers, APIs, etc. to be asynchronous.
 - [ ] Implement repository pattern.
 - [ ] Implement Unit of Work design pattern.
+- [ ] Implement Inversion of Control.
 - [ ] Refactor ShoppingCart class (methods should be in ShoppingCartRepository.cs)
 - [ ] Validate image upload (must be jpg, jpeg, or png and file size <2mb)
 - [ ] Improve checkout form
 - [ ] If no items in cart, hide checkout button
 - [ ] Allow admin to change item picture
-- [ ] Optimize app performance
 - [ ] Send confirmation email with order details.
 - [ ] Refactor JavaScript
   
