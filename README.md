@@ -14,6 +14,10 @@ A personal small-scale store web application
 PeddleRealm is a site where the site Admin can add items up for sell (also edit/delete). Users can browse the market, filter by categories and add items to their cart (as well as remove). Whenever the user is ready, they can checkout their cart and will be prompted to input information in order to finalize their purchase. 
 
 ## Need To Do/Corner Cases
+- [ ] Rewrite sycronous Controllers, APIs, etc. to be asynchronous.
+- [ ] Implement repository pattern.
+- [ ] Implement Unit of Work design pattern.
+- [ ] Refactor ShoppingCart class (methods should be in ShoppingCartRepository.cs)
 - [ ] Validate image upload (must be jpg, jpeg, or png and file size <2mb)
 - [ ] Improve checkout form
 - [ ] If no items in cart, hide checkout button
